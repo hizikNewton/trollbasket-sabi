@@ -1,4 +1,5 @@
-import styled, { css } from "styled-components";
+import { styled } from "globalStyles";
+import { css } from "styled-components";
 
 const textProps = css`
   font-size: ${(props) => props.theme.typography.baseFontSize};
@@ -7,16 +8,12 @@ const textProps = css`
 `;
 
 export const Wrapper = styled.div`
-  background: ${(props) => props.theme.colors.light};
+  background: ${(props) => props.theme.colors.gray};
   text-align: center;
   width: 100px;
   display: flex;
   flex-direction: column;
   transition: 0.3s;
-
-  :hover {
-    background-color: ${(props) => props.theme.colors.hoverLightBackground};
-  }
 `;
 export const ProductDetailWrapper = styled.div.attrs({
   className: "pdw",
@@ -26,6 +23,7 @@ export const ProductDetailWrapper = styled.div.attrs({
   justify-content: center;
 `;
 export const Desc = styled.h4`
+  padding: 0px 10px;
   color: #627483;
   line-height: 21px;
   font-size: 1.2rem;
@@ -57,6 +55,7 @@ export const Image = styled.div<{ width?: string; height?: string }>`
 export const User = styled.div`
   display: inline-flex;
   align-content: center;
+  padding: 10px;
   img {
     width: 24px;
     height: 24px;
@@ -79,6 +78,19 @@ export const Brief = styled.div`
 export const Title = styled.div.attrs({
   className: "title",
 })`
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
   font-size: 1.2rem;
   line-height: 2.1rem;
+`;
+
+export const Review = styled.div`
+  background: ${(props) => props.theme.colors.white};
+  padding: 10px 0px;
+  margin: 10px 0px;
+`;
+export const StarRating = styled.div`
+  padding: 0px 10px;
+  display: flex;
 `;

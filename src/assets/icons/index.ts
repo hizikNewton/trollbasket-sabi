@@ -17,3 +17,4 @@ export * from "./Back";
 export * from "./Search";
 export * from "./LocationIcon";
 export * from "./NavCart";
+export * from "./Star";

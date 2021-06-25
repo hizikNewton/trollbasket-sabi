@@ -18,9 +18,9 @@ export const Minus = () => {
       <path
         d="M9.09998 14H18.9"
         stroke="#123CD3"
-        stroke-width="1.4"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <rect
         x="0.35"
@@ -29,7 +29,7 @@ export const Minus = () => {
         height="27.3"
         rx="13.65"
         stroke="#123CD3"
-        stroke-width="0.7"
+        strokeWidth="0.7"
       />
     </svg>
   );

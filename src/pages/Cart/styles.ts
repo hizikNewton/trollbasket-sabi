@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Items = styled.div`
+  margin: 10px;
   padding: 11px;
   background-color: white;
   margin: 16px;

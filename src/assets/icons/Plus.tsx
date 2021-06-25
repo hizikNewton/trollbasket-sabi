@@ -18,9 +18,9 @@ export const Plus = () => {
       <path
         d="M9.09998 14H18.9M14 9.10001V18.9V9.10001Z"
         stroke="#123CD3"
-        stroke-width="1.4"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <rect
         x="0.35"

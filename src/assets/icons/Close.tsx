@@ -10,9 +10,9 @@ export const Close = () => {
       <path
         d="M1.33337 10.6667L10.6667 1.33334M1.33337 1.33334L10.6667 10.6667L1.33337 1.33334Z"
         stroke="#071827"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );

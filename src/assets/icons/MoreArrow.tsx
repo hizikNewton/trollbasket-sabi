@@ -10,9 +10,9 @@ export const MoreArrow = () => {
       <path
         d="M1.33337 1.66666L6.66671 7L1.33337 12.3333"
         stroke="#0B0C0E"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
